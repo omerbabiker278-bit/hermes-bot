@@ -15,8 +15,6 @@ def keep_alive():
     t = Thread(target=run)
     t.start()
 
-# ضع كود البوت الأساسي الخاص بك هنا تحت keep_alive()
 if __name__ == '__main__':
     keep_alive()
-    # مثال لتشغيل بوت تيليجرام (استبدله بأمر التشغيل الخاص بك):
-    # bot.infinity_polling()
+    bot.infinity_polling()
